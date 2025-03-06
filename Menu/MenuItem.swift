@@ -19,8 +19,19 @@ struct MenuItem {
 
 //det som en cell kommer innehålla är en struct
 
-var menu1: MenuItem = MenuItem(name: "Burger", price: "10kr", imageName: "burger")
-var menu2: MenuItem = MenuItem(name: "Pommes Frites", price: "5kr", imageName: "pommesfrites")
-var menu3: MenuItem = MenuItem(name: "Coca Cola", price: "2kr", imageName: "coca-cola")
-
+var menu1: MenuItem = MenuItem(
+    name: "Burger",
+    price: "10kr",
+    imageName: "burger"
+)
+var menu2: MenuItem = MenuItem(
+    name: "Pommes Frites",
+    price: "5kr",
+    imageName: "pommesfrites"
+)
+var menu3: MenuItem = MenuItem(
+    name: "Coca Cola",
+    price: "2kr",
+    imageName: "coca-cola"
+)
 
